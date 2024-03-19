@@ -27,8 +27,8 @@ public class Lanceur {
 	public static void main(String[] args) {
 
 		/* GÃ©nÃ©ration du plateau */
-		Plateau p = new Plateau(300, MaitreDuJeu.PLATEAU_PETIT3); // un plateau prÃ©dÃ©fini
-		//Plateau p = Plateau.generePlateauAleatoire(100, 10, 8, 8, 20); // un plateau alÃ©atoire
+		//Plateau p = new Plateau(300, MaitreDuJeu.PLATEAU_PETIT3); // un plateau prÃ©dÃ©fini
+		Plateau p = Plateau.generePlateauAleatoire(1000, 10, 8, 8, 20); // un plateau alÃ©atoire
 		//Plateau p = Plateau.generePlateauAleatoire(1000, 10, 8, 8, 20); // un plateau alÃ©atoire
 		
 		System.out.println(p);
